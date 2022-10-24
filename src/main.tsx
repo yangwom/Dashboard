@@ -1,9 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import DashBoard from './pages/Dashboard'
+import App from './App'
+
+
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <DashBoard />
+    <App />
   </React.StrictMode>
 )
